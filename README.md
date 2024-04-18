@@ -65,4 +65,4 @@ python manage.py migrate
 
 Iniciar o servidor:
 python manage.py runserver
-Acesse o blog em seu navegador em http://localhost:8000.
+Acesse o Sistema  Cadastro de Clientes  em seu navegador em http://localhost:8000.
