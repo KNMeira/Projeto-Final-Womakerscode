@@ -10,37 +10,52 @@ O Projeto Final Blog é uma aplicação web construída com o framework Django. 
 
 Antes de executar o projeto, certifique-se de ter o Python e o Django instalados no seu sistema.
 
-1. Clone o repositório:
+1. Clone o repositório:🔄
 
-2. Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto:📂
 
-3. Crie e ative um ambiente virtual (opcional):
+3. Crie e ative um ambiente virtual (opcional):🌀
 
-4. Instale as dependências:
+4. Instale as dependências:📦
 
-5. Execute as migrações do banco de dados:
+5. Execute as migrações do banco de dados:🛠️
 
-6. Crie um superusuário para acessar o painel de administração (opcional):
+6. Crie um superusuário para acessar o painel de administração (opcional): 👑
 
-7. Inicie o servidor de desenvolvimento:
+7. Inicie o servidor de desenvolvimento:🚀 
 
-8. Acesse o aplicativo no seu navegador em http://127.0.0.1:8000/.
+8. Acesse o aplicativo no seu navegador em http://127.0.0.1:8000/  🌐
+  
+9.   ## Tecnologias utilizadas
 
+- Python 🐍
+- Django 🎸
+- Git 🐙
+- GitHub 🐱
+- HTML 🌐
+- CSS 🎨
+- JavaScript 🚀
+- Bootstrap 🅱️
+- SQLite 📦
+- Pip 📦
+- Virtualenv 🌀
+- Terminal 💻
+- Windows 🪟
 
-## Autores
+  ## Autores em ordem Alfabética
 
--Ana Altomani
--Beatriz Kuriki
--Karolina Meira
--Liane Rafaelle
--Valéria Cabral
+-Ana Altomani    https://github.com/Ana-Altomani
+-Beatriz Kuriki  https://github.com/BeatrizKuriki
+-Karolina Meira  https://github.com/KNMeira
+-Liane Rafaelle  https://github.com/lianerafaelle
+-Valéria Cabral  https://github.com/valeriacabral
 
 
 Clone o repositório:
 https://github.com/KNMeira/Projeto-Final-Womakerscode
 
 Navegue até o diretório do projeto:
-cd BreadcrumbsProjeto-Final-Womakerscode
+cd Projeto-Final-Womakerscode
 
 Instale as dependências:
 pip install -r requirements.txt
