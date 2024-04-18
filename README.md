@@ -1,10 +1,10 @@
 # Projeto Final Blog
 
-Este é o repositório do projeto final do blog. O projeto foi desenvolvido como parte de um curso sobre desenvolvimento web com Django.
+Este é o repositório do projeto final  Sistema  Cadastro de Clientes  de uma oficina Mecânica. O projeto foi desenvolvido como parte de um curso sobre desenvolvimento web com Django.
 
 ## Descrição
 
-O Projeto Final Blog é uma aplicação web construída com o framework Django. Ele permite aos usuários criar, editar e visualizar postagens de blog, além de fornecer recursos para gerenciamento de usuários, autenticação e autorização.
+O Projeto Final Sistema Cadastro de Clientes  é uma aplicação web construída com o framework Django. Ele permite aos usuários criar, editar e visualizar.
 
 ## Instalação e Execução
 
