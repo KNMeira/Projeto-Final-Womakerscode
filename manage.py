@@ -2,11 +2,12 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+sys.path.append("C:Users/bayhu/Documents/ana-python/projeto-womakers-spa-oficina/Projeto-Final-Womakerscode")
 
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'oficina_spa.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'oficina_spa.oficina_spa.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

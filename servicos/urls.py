@@ -9,4 +9,5 @@ urlpatterns = [
    path('gerar_os/<str:identificador>', views.gerar_os, name="gerar_os"),
    #path('gerar_os/', views.gerar_os, name="gerar_os"),
    path('servico_adicional/', views.servico_adicional, name="servico_adicional")
+
 ]
