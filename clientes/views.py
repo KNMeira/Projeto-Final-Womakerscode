@@ -6,8 +6,11 @@ from django.core import serializers
 import json
 from django.shortcuts import redirect, get_object_or_404
 from django.urls import reverse
-from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.csrf import csrf_exempt 
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import redirect
 
+@login_required(login_url='login')
 def clientes(request):
     if request.method == "GET":
         clientes_list = Cliente.objects.all()
