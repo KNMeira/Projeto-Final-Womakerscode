@@ -1,0 +1,68 @@
+# Projeto Final Blog
+
+Este é o repositório do projeto final  Sistema  Cadastro de Clientes  de uma oficina Mecânica. O projeto foi desenvolvido como parte de um curso sobre desenvolvimento web com Django.
+
+## Descrição
+
+O Projeto Final Sistema Cadastro de Clientes  é uma aplicação web construída com o framework Django. Ele permite aos usuários criar, editar e visualizar.
+
+## Instalação e Execução
+
+Antes de executar o projeto, certifique-se de ter o Python e o Django instalados no seu sistema.
+
+1. Clone o repositório:🔄
+
+2. Navegue até o diretório do projeto:📂
+
+3. Crie e ative um ambiente virtual (opcional):🌀
+
+4. Instale as dependências:📦
+
+5. Execute as migrações do banco de dados:🛠️
+
+6. Crie um superusuário para acessar o painel de administração (opcional): 👑
+
+7. Inicie o servidor de desenvolvimento:🚀 
+
+8. Acesse o aplicativo no seu navegador em http://127.0.0.1:8000/  🌐
+  
+9.   ## Tecnologias utilizadas
+
+- Python 🐍
+- Django 🎸
+- Git 🐙
+- GitHub 🐱
+- HTML 🌐
+- CSS 🎨
+- JavaScript 🚀
+- Bootstrap 🅱️
+- SQLite 📦
+- Pip 📦
+- Virtualenv 🌀
+- Terminal 💻
+- Windows 🪟
+
+  ## Autores em ordem Alfabética
+
+-Ana Altomani    https://github.com/Ana-Altomani
+-Beatriz Kuriki  https://github.com/BeatrizKuriki
+-Karolina Meira  https://github.com/KNMeira
+-Liane Rafaelle  https://github.com/lianerafaelle
+-Valéria Cabral  https://github.com/valeriacabral
+
+
+Clone o repositório:
+https://github.com/KNMeira/Projeto-Final-Womakerscode
+
+Navegue até o diretório do projeto:
+cd Projeto-Final-Womakerscode
+
+Instale as dependências:
+pip install -r requirements.txt
+
+Execute as migrações do banco de dados:
+python manage.py migrate
+
+Iniciar o servidor:
+python manage.py runserver
+Acesse o Sistema  Cadastro de Clientes  em seu navegador em http://localhost:8000.
