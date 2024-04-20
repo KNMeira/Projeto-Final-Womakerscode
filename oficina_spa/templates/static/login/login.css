@@ -1,109 +1,114 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
 }
-.container{
-    height: 100vh;
-    display: flex;
+
+.container {
+    min-height: 100vh;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+h1 {
+    color: #333; 
+    font-size: 2rem; 
+    font-weight: bold;
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin-bottom: 1rem; 
+    text-transform: uppercase; 
 }
 
-.red-section {
-    height: 50%;
-    background-color: #000000;
-background-image: linear-gradient(326deg, #000000 0%, #ce203c 74%);
 
-    
+.red-section, .white-section {
+    flex: 1;
+
+.red-section {
+    background-color: #000000;
+    background-image: linear-gradient(326deg, #000000 0%, #ce203c 74%);
 }
 
 .white-section {
-    height: 50%;
     background-color: white;
 }
+
 .white-form {
     background-color: white;
-    padding: 30px;
-    margin: 20px;
+    padding: 2rem; 
+    margin: 2rem;
     border-radius: 10px;
-    border:1px
-    border-color:#7e7971;
+    border: 1px solid #7e7971;
+    max-width: 90%; 
 }
-.input-form{
+
+.input-form {
     background-color: #0000;
-    padding: 10px;
+    padding: 1rem; 
     border: none;
     border: 1px solid rgba(88, 252, 213, .4);
     color: #414345;
     outline: 0;
     width: 100%;
+    margin-bottom: 1rem; 
 }
 
-.btn-cadastro{
-    padding: 10px;
-    background-color:  #a6abaa;
+.btn-cadastro {
+    padding: 1rem 2rem; 
+    background-color: #a6abaa;
     border: none;
     border: 1px solid #58fcd5;
-    font-size: 18px;
+    font-size: 1rem; 
     font-weight: bold;
-    padding-left: 25px;
-    padding-right: 25px;
 }
+
 .btn-cadastro:hover {
-    background-color: #0056b3; 
-    
-}   
-.sidebar{
+    background-color: #0056b3;
+}
+
+.sidebar {
     position: fixed;
-    top:0;
-    left:0;
-    bottom:0;
-    padding: 12px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1rem; 
     width: 300px;
 }
 
-.sidebar_navigation{
+.sidebar_navigation {
     background-color: #a9a9a9;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 1rem; 
 
-}
-
-.logo{
+.logo {
     background-color: #a9a9a9;
     display: flex;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 1rem; 
 }
 
-.sidebar nav ul{
+.sidebar nav ul {
     margin-top: 20px;
-    padding:0 20px 10px 20px;
+    padding: 0 1rem 0.5rem 1rem; 
 }
-.sidebar ul li{
-    padding: 10px 0;
+
+.sidebar ul li {
+    padding: 0.5rem 0;
 }
-.sidebar nav ul li a{
-    color:#a9a9a9;
+
+.sidebar nav ul li a {
+    color: #a9a9a9;
     text-decoration: none;
     font-weight: 600;
-    font-size: 14px;
-    font-family: "DM Sans" sans-serif;
-   
-
+    font-size: 1rem; 
+    font-family: "DM Sans", sans-serif;
 }
+
 footer {
-    color: back;
+    color: black; 
     text-align: center;
-    padding: 20px 0 ;
+    padding: 1rem 0;
     position: fixed;
     bottom: 0;
     width: 100%;
