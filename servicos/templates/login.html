@@ -1,23 +1,55 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'login/login.css' %}">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dd4131b665.js" crossorigin="anonymous"></script>
 </head>
 
-
 <body>
+    <div class="red-section">
+        <div class="sidebar">
+              <ul>
+                <li>
+                  <a href="">
+                    <span class="fa fa-home"></span>
+                    <span>Início</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span class="fa fa-search"></span>
+                    <span>Buscar</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+        </div>  
+    <div class="container">
+        <div class="white-form">
+            <h1> Login</h1>
+        <form action="{% url 'login' %}" method="POST">{% csrf_token %}
+            <input type="text" placeholder="Username..." name="username" class="input-form">
+            <br>
+            <br>
+            <input type="password" placeholder="Senha..." name="senha"  class="input-form">
+            <br>
+            <br>
+            <div class="white-section">
+                <button type="submit" class="btn btn-primary">Logar</button>
+                <br>
+                <br>
+                <a  href="{% url 'cadastro' %}">Não é cadastrado? Cadastre-se!</a>
+            </form>
+            </div>
+        </div>
+    </div>
+<footer>
+    <p>© 2024 Projeto Final do Curso da WoMakersCode <img src="{% static 'login//l.avif' %}" alt="Pesquisar" class="lupa-icon" style="width: 20px; height: auto;"></p>
 
-    <form action="{% url 'login' %}" method="POST">{% csrf_token %}
-
-        <input type="text" placeholder="Username..." name="username">
-        <br>
-        <br>
-        <input type="password" placeholder="Senha..." name="senha">
-        <br>
-        <br>
-        <input type="submit" value="logar">
-        <br>
-        <br>
-        <a  href="{% url 'cadastro' %}">Já é cadastrado? Entre aqui!</a>
-    </form>
+</footer>
 </body>
