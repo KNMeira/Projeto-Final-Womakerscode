@@ -47,7 +47,6 @@ class Servico(models.Model):
         preco_total = float(0)
         for categoria in self.categoria_manutencao.all():
             preco_total += float(categoria.preco)
-        for servico_adicional in self.servicos_adicionais.all():
-            preco_total += float(servico_adicional.preco)
+
         return preco_total
     
