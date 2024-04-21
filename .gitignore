@@ -1,2 +1,14 @@
 git add .gitignore
 git commit -m "Add .gitignore for Python cache and other files"
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.swp
+.DS_Store
+
+# Virtual environment
+venv/
+.venv/
