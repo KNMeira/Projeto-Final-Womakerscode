@@ -1,11 +1,10 @@
 #Trabalho Final.
 
-
-Bem-vindo! Este repositório foi estabelecido como parte integral do Bootcamp Back-End Python Django da WomakersCode. 
+Bem- vindo! Este repositório faz parte do Bootcamp Back-End Python Django da WomakersCode, onde desenvolvemos um Sistema de Oficina para facilitar a gestão de uma oficina mecânica.
 
 ## Objetivo 🎯
 
-
+O objetivo deste projeto é fornecer uma solução eficiente para o gerenciamento de uma oficina mecânica, simplificando processos como o cadastro de clientes, agendamento de serviços e controle de estoque.
 
 ## Projetos Incluídos
 
@@ -35,5 +34,8 @@ Aqui estão as incríveis colaboradoras que estão impulsionando este projeto:
 ## Agradecimentos
 
 Agradecemos antecipadamente a todas as colaboradoras por seu esforço e dedicação para tornar este projeto um sucesso. Juntas, estamos construindo algo incrível!
+Agradecemos também à comunidade WomakersCode pelo apoio e oportunidade de aprendizado!
+
+Sinta-se à vontade para explorar nosso código-fonte e contribuir para tornar este projeto ainda melhor!
 
 **Divirta-se codando!** 🚀
