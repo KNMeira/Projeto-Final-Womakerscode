@@ -80,7 +80,7 @@ background-image: linear-gradient(326deg, #000000 0%, #ce203c 74%);
     width: 300px;
 }
 footer {
-    color: back;
+    color: black;
     text-align: center;
     padding: 20px 0 ;
     position: fixed;
