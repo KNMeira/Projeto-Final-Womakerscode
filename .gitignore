@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 git add .gitignore
 git commit -m "Add .gitignore for Python cache and other files"
+=======
+>>>>>>> main
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -12,3 +15,15 @@ __pycache__/
 # Virtual environment
 venv/
 .venv/
+<<<<<<< HEAD
+=======
+
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# SQLite database files
+*.db
+*.sqlite3
+
+>>>>>>> main

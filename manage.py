@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-sys.path.append("C:Users/bayhu/Documents/ana-python/projeto-womakers-spa-oficina/Projeto-Final-Womakerscode")
+sys.path.append("/home/beatrizkuriki/Downloads/Projeto-Final-Womakerscode")
 
 
 def main():
