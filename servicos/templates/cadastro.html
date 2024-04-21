@@ -27,3 +27,30 @@
         </div>  
     <div class="container">
         <div class="white-form">
+             <h1>Cadastre-se</h1>
+        <form action="{% url 'login' %}" method="POST">{% csrf_token %}
+            <input type="text" placeholder="Username..." name="username" class="input-form">
+            <br>
+            <br>
+            <input type="text" placeholder="Email..." name="nome@email"  class="input-form">
+            <br>
+            <br>
+            <input type="password" placeholder="Senha..." name="senha"  class="input-form">
+            <br>
+            <br>
+            <div class="white-section">
+                <button type="submit" class="btn btn-primary">Cadastre-se</button>
+                <br>
+                <br>
+                <a  href="{% url 'login' %}"></a>
+            </form>
+            </div>
+        </div>
+        
+        
+    </div>
+<footer>
+    <p>© 2024 Projeto Final do Curso da WoMakersCode <img src="{% static 'img/logo.avif' %}" alt="Pesquisar" class="lupa-icon" style="width: 20px; height: auto;"></p>
+
+</footer>
+</body>
